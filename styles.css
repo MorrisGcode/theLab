@@ -77,27 +77,3 @@
     margin-bottom: 0.5rem;
 }
 
-.footer {
-    background-color: black !important;
-    color: white !important;
-}
-
-.footer .text-muted {
-    color: #fff !important;
-}
-
-.footer .border-bottom {
-    border-bottom-color: #333 !important;
-}
-
-.footer .bg-body-tertiary {
-    background-color: black !important;
-}
-
-.footer .text-reset {
-    color: white !important;
-}
-
-.footer .copyright {
-    background-color: rgba(255, 255, 255, 0.05) !important;
-}
