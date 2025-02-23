@@ -48,6 +48,7 @@
     max-width: 1200px;
     width: 100px;
     margin-left: 60px;
+    padding-top: 20px;
 
   }
 .pricing-card{
@@ -76,4 +77,18 @@
 .form-label {
     margin-bottom: 0.5rem;
 }
+
+.bg-image {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+ /* .card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}  */
+
+
 
