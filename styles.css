@@ -1,0 +1,103 @@
+.first{
+    /* background-size: auto; */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    
+
+}
+.firstm li{
+    list-style: none;
+    font-size: 30p;
+    
+
+}
+.nav{
+    background-color: transparent;
+    justify-content: space-between;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/gym.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-image2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/foods.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .pricing-table{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 60px;
+    max-width: 1200px;
+    width: 100px;
+    margin-left: 60px;
+
+  }
+.pricing-card{
+    background: linear-gradient(135deg,#0f2027 0%, #203a43, #2c5364 100%);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 15px 35px 35px rgba(0, 0, 0, 0.5), -15px -35px 35px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position : relative;
+    overflow-x: hidden;
+}
+
+.form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #444;
+    color: white;
+    border-color: cornflowerblue;
+    box-shadow: 0 0 0 0.25rem rgba(100, 149, 237, 0.25);
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: black !important;
+    color: white !important;
+}
+
+.footer .text-muted {
+    color: #fff !important;
+}
+
+.footer .border-bottom {
+    border-bottom-color: #333 !important;
+}
+
+.footer .bg-body-tertiary {
+    background-color: black !important;
+}
+
+.footer .text-reset {
+    color: white !important;
+}
+
+.footer .copyright {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
